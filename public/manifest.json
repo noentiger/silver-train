@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "SSR Create React App Sample",
+  "short_name": "Kim Wijk",
+  "name": "Kim Wijk",
   "icons": [
     {
       "src": "favicons/favicon.ico",
@@ -8,8 +8,8 @@
       "type": "image/png"
     },
     {
-      "src": "favicons/favicon-512x512.ico",
-      "sizes": "512x512",
+      "src": "favicons/favicon-32x32.png",
+      "sizes": "32x32",
       "type": "image/png"
     }
   ],

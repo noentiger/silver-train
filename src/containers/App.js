@@ -5,6 +5,7 @@ import LivePage from './LivePage'
 import NoMatch from '../components/NoMatch'
 import { Grid, Row, Col } from 'react-flexbox-grid';
 import Header from '../components/Header';
+import Footer from '../components/Footer';
 
 export default class App extends Component {
   render(){
@@ -25,6 +26,7 @@ export default class App extends Component {
               </Row>
             </Col>
           </Row>
+          <Footer />
         </Grid>
       </div>
     )
