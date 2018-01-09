@@ -38,4 +38,4 @@ deploy:
   provider: script
   script: docker push "${DOCKER_IMAGE_NAME}:latest" && docker push "${DOCKER_IMAGE_NAME}:${git_sha}-latest"
   on:
-    branch: latest
+    branch: master
