@@ -11,7 +11,7 @@ class FirstPage extends Component {
     return (
       <div>
         <p>{`Email: ${this.props.user.email}`}</p>
-        <Link to={'/second'}>Second</Link>
+        <Link to={'/second'}>Next</Link>
       </div>
     )
   }
