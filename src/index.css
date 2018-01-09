@@ -1,11 +1,37 @@
+@font-face {
+    font-family: 'AvantGarde CE';
+    src: url('./fonts/AvantGardeCE-Book.woff2') format('woff2'),
+        url('./fonts/AvantGardeCE-Book.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
   margin: 0;
   padding: 0;
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-family: "AvantGarde CE", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-weight: 300;
   padding:0;
   margin:0;
   text-align: center;
-  background: url(images/bg1.jpg) no-repeat center center fixed;
+  background: linear-gradient(0deg, rgba(0,0,0,0.45)), url(images/bg1.jpg) no-repeat center center fixed;
   background-size: cover;
+  color: #ffffff;
+}
+
+.ag {
+  font-family: 'AvantGarde CE', 'HelveticaNeue-Light', Helvetica;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-white {
+  color: #ffffff;
+}
+
+.content-wrapper {
+  border: 10px solid rgba(255,255,255,0.9);
+  height: 50vh;
 }

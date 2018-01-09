@@ -1,0 +1,10 @@
+.header {
+  margin: 6rem auto;
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media (min-width : 320px) and (max-width : 480px) {
+  .header {
+    margin: 3rem auto;
+  }
+}

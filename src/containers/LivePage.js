@@ -3,15 +3,13 @@ import { connect } from 'react-redux'
 import { bindActionCreators } from 'redux'
 
 import * as userActions from '../actions/user'
-import { Link } from 'react-router-dom'
-import './SecondPage.css'
+import './LivePage.css'
 
-class SecondPage extends Component {
+class LivePage extends Component {
   render() {
     return (
-      <div className='bold'>
-        <h2>Second Page</h2>
-        <Link to={'/'}>First</Link>
+      <div>
+        <h2>Datum kommer...</h2>
       </div>
     )
   }
@@ -28,4 +26,4 @@ const mapDispatchToProps = dispatch => ({
 export default connect(
   mapStateToProps,
   mapDispatchToProps
-)(SecondPage)
+)(LivePage)
