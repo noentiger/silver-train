@@ -24,6 +24,7 @@ export default class App extends Component {
               { property: 'og:type', content: 'article' },
               { property: 'og:description', content: constants.meta.description },
               { name: 'description', content: constants.meta.description },
+              { property: 'fb:app_id', content: constants.meta.facebookAppId },
           ]}
           script={[
             {

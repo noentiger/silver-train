@@ -25,5 +25,6 @@ export default {
     image: 'http://kimwijk.com/kim-wijk-profile-picture.jpg',
     url: 'http://kimwijk.com',
     description: 'Svensk indie pop/rock. Lyssna på senaste singeln Riv Mig Itu på Spotify.',
+    facebookAppId: '308363283003928',
   },
 };
