@@ -27,4 +27,7 @@ export default {
     description: 'Svensk indie pop/rock. Lyssna på senaste singeln Riv Mig Itu på Spotify.',
     facebookAppId: '308363283003928',
   },
+  analytics: {
+    google: 'UA-112226557-1',
+  },
 };

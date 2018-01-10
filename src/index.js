@@ -8,10 +8,14 @@ import 'normalize.css/normalize.css'
 import './index.css'
 import App from './containers/App'
 import registerServiceWorker from './registerServiceWorker'
+import constants from './constants';
+import ReactGA from 'react-ga';
 
 // Let the reducers handle initial state
 const initialState = {}
 const store = configureStore(initialState)
+
+ReactGA.initialize(constants.analytics.google);
 
 ReactDOM.render(
   <Provider store={store}>
