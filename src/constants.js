@@ -2,8 +2,8 @@ export default {
   artist: {
     name: 'Kim Wijk',
     images: [
-      'http://kim.wijk.com/images/kim-wijk-cover-window.jpg',
-      'http://kim.wijk.com/images/kim-wijk-cover-snow.jpg',
+      'http://kim.wijk.com/kim-wijk-cover-window.jpg',
+      'http://kim.wijk.com/kim-wijk-cover-snow.jpg',
     ],
     tracks: [
       {
@@ -22,7 +22,7 @@ export default {
   },
   meta: {
     title: 'Kim Wijk',
-    image: 'http://kim.wijk.com/images/kim-wijk-profile-picture.jpg',
+    image: 'http://kim.wijk.com/kim-wijk-profile-picture.jpg',
     url: 'http://kimwijk.com',
     description: 'Svensk indie pop/rock. Lyssna på senaste singeln Riv Mig Itu på Spotify.',
   },
