@@ -5,12 +5,15 @@ const React = require('react')
 const {Provider} = require('react-redux')
 const {renderToString} = require('react-dom/server')
 const {StaticRouter} = require('react-router-dom')
+import Helm from 'react-helmet';
 
 const {default: configureStore} = require('../src/store')
 const {default: App} = require('../src/containers/App')
 
 module.exports = function universalLoader(req, res) {
   const filePath = path.resolve(__dirname, '..', 'build', 'index.html')
+
+  const helmetMeta = Helm.rewind();
 
   fs.readFile(filePath, 'utf8', (err, htmlData)=>{
     if (err) {
@@ -35,9 +38,10 @@ module.exports = function universalLoader(req, res) {
       res.redirect(301, context.url)
     } else {
       // we're good, send the response
+      const head = helmetMeta.meta.toString() + helmetMeta.script.toString() + helmetMeta.title.toString();
+      htmlData = htmlData.replace('{{Head}}', head)
       const RenderedApp = htmlData.replace('{{SSR}}', markup)
       res.send(RenderedApp)
     }
   })
 }
-
