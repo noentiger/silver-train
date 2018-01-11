@@ -29,6 +29,5 @@ export default {
   },
   analytics: {
     google: 'UA-112226557-1',
-    facebookPixel: '2062150904005387',
   },
 };
