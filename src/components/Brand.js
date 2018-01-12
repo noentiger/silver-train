@@ -4,7 +4,7 @@ import './Brand.css';
 
 const Brand = () => (
   <div className="brand ag">
-    <h1>{constants.artist.name}</h1>
+    <h1>{constants.artistName}</h1>
   </div>
   );
 

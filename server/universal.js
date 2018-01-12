@@ -39,7 +39,7 @@ module.exports = function universalLoader(req, res) {
     } else {
       // we're good, send the response
       const head = helmetMeta.meta.toString() + helmetMeta.script.toString() + helmetMeta.title.toString();
-      htmlData = htmlData.replace('<!--{{HEAD}}-->', head)
+      htmlData = htmlData.replace('{{Head}}', head)
       const RenderedApp = htmlData.replace('{{SSR}}', markup)
       res.send(RenderedApp)
     }
