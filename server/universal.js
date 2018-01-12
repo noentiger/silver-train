@@ -38,9 +38,10 @@ module.exports = function universalLoader(req, res) {
       res.redirect(301, context.url)
     } else {
       // we're good, send the response
-      const head = helmetMeta.meta.toString() + helmetMeta.script.toString() + helmetMeta.title.toString();
+      const head = helmetMeta.meta.toString() + helmetMeta.script.toString() + helmetMeta.title.toString() + helmetMeta.noscript.toString();
       htmlData = htmlData.replace('{{Head}}', head)
       const RenderedApp = htmlData.replace('{{SSR}}', markup)
+      console.log("RenderedApp", RenderedApp);
       res.send(RenderedApp)
     }
   })
