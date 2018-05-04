@@ -1,15 +1,9 @@
-@font-face {
-    font-family: 'AvantGarde CE';
-    src: url('./fonts/AvantGardeCE-Book.woff2') format('woff2'),
-        url('./fonts/AvantGardeCE-Book.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,700');
 
 body {
   margin: 0;
   padding: 0;
-  font-family: "AvantGarde CE", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-family: "Raleway", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-weight: 300;
   padding:0;
   margin:0;
