@@ -17,7 +17,7 @@ export default class App extends Component {
         <Grid fluid>
           <Header />
           <Row center="xs">
-            <Col xs={10} sm={8}>
+            <Col xs={10} sm={6}>
               <Row className="content-wrapper" center="xs" middle="xs">
                 <Col>
                   <Switch>

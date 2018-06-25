@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
 import { bindActionCreators } from 'redux'
+import { Grid, Row, Col } from 'react-flexbox-grid';
 
 import * as userActions from '../actions/user'
 import './StartPage.css'
@@ -9,9 +10,14 @@ class FirstPage extends Component {
   render() {
     return (
       <div>
-        <h1 className="text-white">Ny singel ute!</h1>
-        <h2 className="text-white"><small>Riv mig itu</small></h2>
-        <iframe title="song" src="https://open.spotify.com/embed?uri=spotify:track:5A19jKYDsMckBCltYXkpVK" width="300" height="80" frameBorder="0" allowTransparency="true" style={{border: 'none', overflow: 'hidden'}}></iframe>
+        <Grid fluid>
+          <Row center="xs">
+            <Col xs={12}>
+              <h1 className="text-white">Följ gärna på Spotify:</h1>
+              <iframe title="Follow Kim Wijk on Spotify" src="https://open.spotify.com/follow/1/?uri=spotify:artist:0MegUhRAG8cKnF8PZ3zsP7&size=detail&theme=dark&show-count=0" width={170} height={56} scrolling="no" frameBorder="0" style={{border:"none", overflow:"hidden"}} allowTransparency="true" />
+            </Col>
+          </Row>
+        </Grid>
       </div>
     )
   }

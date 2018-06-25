@@ -7,7 +7,7 @@ import './Header.css';
 const Header = () => (
   <Row className="header" center="xs">
     <Col xs={10}>
-      <Row>
+      <Row middle="xs">
         <Col xs={12} sm={6}>
           <Brand />
         </Col>

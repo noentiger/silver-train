@@ -43,6 +43,19 @@ const HelmetData = () => (
       }
     </script>
 
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-112226557-1"></script>
+
+    <script type="text/javascript">
+      {
+        `
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'UA-112226557-1');
+        `
+      }
+    </script>
+
     <noscript>
       {`<img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=${constants.analytics.facebookPixel}&ev=PageView&noscript=1"/>`}
     </noscript>

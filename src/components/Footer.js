@@ -5,7 +5,7 @@ import './Footer.css';
 const Footer = () => (
   <Row className="footer" bottom="xs" center="xs">
     <Col xs={10}>
-      <small>© 2017 Forever Studio</small>
+      <small>© {new Date().getFullYear()} Forever Studio</small>
     </Col>
   </Row>
 );
