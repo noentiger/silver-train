@@ -15,6 +15,10 @@ body {
   overflow: hidden;
 }
 
+h2 {
+  font-weight: 200;
+}
+
 .text-right {
   text-align: right;
 }

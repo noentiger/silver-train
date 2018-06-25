@@ -13,8 +13,12 @@ class FirstPage extends Component {
         <Grid fluid>
           <Row center="xs">
             <Col xs={12}>
-              <h1 className="text-white">Följ gärna på Spotify:</h1>
-              <iframe title="Follow Kim Wijk on Spotify" src="https://open.spotify.com/follow/1/?uri=spotify:artist:0MegUhRAG8cKnF8PZ3zsP7&size=detail&theme=dark&show-count=0" width={170} height={56} scrolling="no" frameBorder="0" style={{border:"none", overflow:"hidden"}} allowTransparency="true" />
+              <Col style={{padding: 20}}>
+                <iframe title="Listen to Kim Wijk on Spotify" src="https://open.spotify.com/embed?uri=spotify:track:5A19jKYDsMckBCltYXkpVK" width="300" height="80" frameBorder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+              </Col>
+              <Col style={{padding: 20}}>
+                <iframe title="Follow Kim Wijk on Spotify" src="https://open.spotify.com/follow/1/?uri=spotify:artist:0MegUhRAG8cKnF8PZ3zsP7&size=detail&theme=dark&show-count=0" width={170} height={56} scrolling="no" frameBorder="0" style={{border:"none", overflow:"hidden"}} allowTransparency="true" />
+              </Col>
             </Col>
           </Row>
         </Grid>
