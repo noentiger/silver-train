@@ -17,8 +17,8 @@ export default class App extends Component {
         <Grid fluid>
           <Header />
           <Row center="xs">
-            <Col xs={10} sm={6}>
-              <Row className="content-wrapper" center="xs" middle="xs">
+            <Col>
+              <Row>
                 <Col>
                   <Switch>
                     <Route exact path="/" component={StartPage}/>
@@ -29,7 +29,6 @@ export default class App extends Component {
               </Row>
             </Col>
           </Row>
-          <Footer />
         </Grid>
       </div>
     )

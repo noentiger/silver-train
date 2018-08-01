@@ -4,6 +4,7 @@ export default {
     images: [
       'http://kimwijk.com/kim-wijk-cover-window.jpg',
       'http://kimwijk.com/kim-wijk-cover-snow.jpg',
+      'http://kimwijk.com/kim-wijk.jpg',
     ],
     tracks: [
       {
@@ -19,10 +20,11 @@ export default {
   urls: {
     facebook: 'https://www.facebook.com/wijkim/',
     spotify: 'https://open.spotify.com/artist/0MegUhRAG8cKnF8PZ3zsP7',
+    instagram: 'https://www.instagram.com/kimwijk',
   },
   meta: {
     title: 'Kim Wijk',
-    image: 'http://kimwijk.com/kim-wijk-profile-picture.jpg',
+    image: 'http://kimwijk.com/kim-wijk.jpg',
     url: 'http://kimwijk.com',
     description: 'Svensk indie pop/rock. Lyssna på senaste singeln Riv Mig Itu på Spotify.',
     facebookAppId: '308363283003928',
