@@ -2,9 +2,6 @@
   "name": "silver-train",
   "version": "0.1.0",
   "private": true,
-  "engines": {
-    "node": "^8.9.4"
-  },
   "devDependencies": {
     "babel-cli": "^6.24.1",
     "babel-preset-env": "^1.5.1",
